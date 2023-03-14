@@ -1,8 +1,6 @@
-import { Component } from "react";
 import Navbar from "./Navbar";
 import YouTube from "react-youtube";
 import { withRouter } from 'react-router-dom';
-import './View.css';
 
 
 function View() {
