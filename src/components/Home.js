@@ -3,7 +3,9 @@
 export default function Home() {
     return (
        <section>
-        <h1></h1>
+        <label></label>
+        <input type="text" placeholder="Search..."></input>
+        <button>Submit</button>
        </section>
         
     );

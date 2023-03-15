@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Home from "./components/Home.js";
 import About from "./components/About.js";
 import Header from "./components/Header.js";
+
 function App() {
   return (
     <div className="App">
