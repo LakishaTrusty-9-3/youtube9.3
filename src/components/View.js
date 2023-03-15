@@ -1,6 +1,6 @@
-import Navbar from "./Navbar";
+import NavBar from "./NavBar";
 import YouTube from "react-youtube";
-import { withRouter } from 'react-router-dom';
+
 
 
 function View() {
@@ -14,7 +14,7 @@ function View() {
         };
     return (
         <div id="video-page">
-            <Navbar />
+            <NavBar />
             <div id="video-container">
                 <YouTube videoId={id} opts={opts} />
             </div>
@@ -22,4 +22,4 @@ function View() {
     )
 }
 
-export default withRouter(View);
+export default View;
