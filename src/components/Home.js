@@ -7,6 +7,5 @@ export default function Home() {
         <input type="text" placeholder="Search..."></input>
         <button>Submit</button>
        </section>
-        
     );
   };
